@@ -1,0 +1,1121 @@
+@charset "utf-8";
+
+@media screen and (max-width:1440px) {
+
+    .teb .dot {
+        margin-bottom: 2em;
+    }
+
+    .teb .label {
+        font-size: 0.9rem;
+    }
+
+    .contact .bg .text .title>p {
+        font-size: 2.5rem;
+    }
+
+    .contact .bg .text>p {
+        font-size: 1.8rem;
+    }
+
+    .contact .bg .text>p span {
+        font-size: 2rem;
+    }
+
+    .contact .bg .text .number p {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    header ul {
+        width: 45%;
+    }
+
+    header ul li a {
+        font-size: 1.2rem;
+    }
+
+    .section1 .text .subtext p {
+        font-size: 1.5rem;
+    }
+
+    .section1 .typing {
+        font-size: 6rem;
+    }
+
+    .section1 .text span {
+        font-size: 1.5rem;
+        width: 250px;
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .section2 p {
+        word-break: keep-all;
+        font-size: 1.3rem;
+    }
+
+
+    .section3 .wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section3 .pr .text {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .section3 .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3rem;
+    }
+
+    .section3 .info>div {
+        margin-bottom: 1.5rem;
+    }
+
+    .section3 .info h1 {
+
+        text-align: center;
+    }
+
+    .section3 .info p {
+        font-size: 1.2rem;
+    }
+
+    .section3 .sk .sktext {
+        gap: 20px;
+    }
+
+    .web .item2 .text {
+        width: 100%;
+    }
+
+    .web .item2 .text .textinfo {
+        width: 75%;
+    }
+
+    .item2 br {
+        display: block;
+    }
+
+    .design .itembox {
+        width: 60%;
+    }
+
+    .sd {
+        width: 50vw;
+    }
+
+    .banner .btn-next {
+        right: 15vw;
+    }
+
+    .banner .btn-prev {
+        left: 15vw;
+        transform: translateY(-50%) rotate(180deg);
+    }
+
+    .contact .bg .text .title>p {
+        font-size: 2rem;
+    }
+
+    .contact .bg .text>p {
+        font-size: 1.8rem;
+    }
+
+    .contact .bg .text>p span {
+        font-size: 2rem;
+    }
+
+    .contact .bg .text .number p {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .web .item .text {
+        width: 50%;
+    }
+
+    .section3 .info .ex::before {
+        bottom: calc(1.2em + 4px);
+    }
+
+    .section3 .info .ex::before {
+        width: 65vw;
+    }
+
+    .banner .btn-prev {
+        left: 18vw;
+    }
+
+    .banner .btn-next {
+        right: 18vw;
+    }
+}
+
+@media screen and (max-width:977px) {
+    .section1 .text .subspan {
+        font-size: 1.9rem;
+    }
+
+    .sd {
+        width: 60vw;
+    }
+
+    .banner .btn-next {
+        right: 12vw;
+    }
+
+    .banner .btn-prev {
+        left: 12vw;
+    }
+}
+
+@media screen and (max-width:922px) {
+    .section1 .text .subspan {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width:879px) {
+    header ul {
+        width: 50%;
+    }
+
+    header ul li a {
+        font-size: 1.2rem;
+    }
+
+    .section1 .text .subspan {
+        font-size: 1.7rem;
+    }
+}
+
+
+@media screen and (max-width:867px) {
+
+    header .menu {
+        width: 100vw;
+        position: fixed;
+        background-color: #fff;
+        z-index: 999;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    header img {
+        margin: 0 auto;
+    }
+
+    header button {
+        opacity: 1;
+    }
+
+    .teb {
+        display: none;
+    }
+
+    .section1 {
+        padding: 100px 3vw 20px;
+    }
+
+    .section1 .text .subspan {
+        font-size: 1.5rem;
+    }
+    .section3 .info {
+        width: 100%;
+    }
+
+    .web .item,
+    .item2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5em;
+    }
+
+    .web .item h1,
+    .item2 h1 {
+        font-size: 1.8rem;
+    }
+
+    .web .item span,
+    .web .item2 span {
+        font-size: 1rem;
+        padding: 6px 40px 6px 20px;
+    }
+
+    .web .item span:hover,
+    .web .item2 span:hover {
+        padding: 6px 50px 6px 20px;
+    }
+
+    .web .item span::after,
+    .web .item2 span::after {
+        width: 8px;
+        height: 14px;
+    }
+
+    .web .item span:hover::after,
+    .web .item2 span:hover::after {
+        right: 1em;
+    }
+
+    .web .item span:active::after,
+    .web .item2 span:active::after {
+        width: 8px;
+        height: 14px;
+    }
+
+    .web .item .text {
+        text-align: center;
+    }
+
+    .web .item2 .text {
+        order: 2;
+        text-align: center;
+    }
+
+    .web .item2 img {
+        order: 1;
+    }
+
+    .web .item img {
+        width: 50%;
+    }
+
+    .web .item2 {
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0px auto;
+        margin-bottom: 5em;
+    }
+
+    .web .item2 img {
+        width: 50%;
+        height: auto;
+        aspect-ratio: 5 / 3;
+        object-fit: cover;
+        flex-shrink: 1;
+        border-radius: 30px;
+        border: 6px solid white;
+        box-shadow: 2px 2px 5px #6C8191;
+        animation: img 2s infinite alternate;
+    }
+
+    .web .item2 .text {
+        font-family: 'Pretendard';
+        color: #414040;
+        width: 50%;
+        padding-top: 2em;
+    }
+
+    .web .item2 h1 {
+        color: #476E89;
+    }
+
+    .web .item2 .text .textinfo {
+        display: flex;
+        margin-top: 1em;
+        width: 100%;
+        justify-content: space-between;
+
+    }
+
+    .design .itembox {
+        width: 65%;
+    }
+
+    .design .itembox img {
+        width: 260px;
+    }
+
+    .popup .item {
+        width: 60%;
+        max-height: 60vh;
+    }
+
+    .sd {
+        width: 65vw;
+    }
+
+    .banner .btn-next,
+    .banner .btn-prev {
+        width: 20px;
+        height: 34px;
+    }
+
+    .banner .btn-next {
+        right: 10vw;
+    }
+
+    .banner .btn-prev {
+        left: 10vw;
+        transform: translateY(-50%) rotate(180deg);
+    }
+
+    /* .contact .bg {
+        height: 70vh;
+    } */
+
+    .contact .bg .text .title>p {
+        font-size: 1.5rem;
+    }
+
+    .contact .bg .text>p {
+        font-size: 1.2rem;
+    }
+
+    .contact .bg .text>p span {
+        font-size: 1.5rem;
+    }
+
+    .contact .bg .text .number p {
+        font-size: 1.2rem;
+    }
+
+}
+
+@media screen and (max-width:733px) {
+    .section1 .typing {
+        font-size: 5rem;
+    }
+
+    .section1 .text .subspan {
+        font-size: 1.4rem;
+    }
+
+    .section1 .text span {
+        font-size: 1.3rem;
+        width: 230px;
+        height: 55px;
+        line-height: 55px;
+    }
+}
+
+@media screen and (max-width:700px) {
+
+    .web .item img,
+    .web .item2 img {
+        width: 65%;
+    }
+
+    .web .item h1,
+    .item2 h1 {
+        font-size: 1.7rem;
+    }
+
+    .web .item .text .textinfo .text-l p,
+    .text-r p {
+        font-size: 1.1rem;
+    }
+
+    .web .item2 .text .textinfo .text-l p,
+    .text-r p {
+        font-size: 1.1rem;
+    }
+
+    .web .item .text {
+        width: 55%;
+    }
+
+    .web .item2 .text {
+        width: 52%;
+    }
+}
+
+@media screen and (max-width:655px) {
+    .section1 .typing {
+        font-size: 12vw;
+    }
+    .section3 .sk .sktext {
+        width: 420px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2vw;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .section1 .typing {
+        font-size: 4rem;
+    }
+
+    .section1 .text span {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .section2 p {
+        font-size: 1.2rem;
+    }
+
+    .section2 .text {
+        margin: 2em;
+    }
+
+    .web .item .text,
+    .web .item2 .text {
+        width: 60%;
+    }
+
+    .contact .bg .text>p .br {
+        display: block;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .sd {
+        width: 80vw;
+    }
+
+    .design .itembox img {
+        width: 240px;
+    }
+
+    .banner .btn-next,
+    .banner .btn-prev {
+        width: 16px;
+        height: 26px;
+    }
+
+    .banner .btn-next {
+        right: 5vw;
+    }
+
+    .banner .btn-prev {
+        left: 5vw;
+        transform: translateY(-50%) rotate(180deg);
+    }
+}
+
+@media screen and (max-width:529px) {
+    .section1 .text .subtext p {
+        font-size: 4vw;
+    }
+    .section1 .typing {
+        font-size: 12vw;
+    }
+
+    .web .item .text,
+    .web .item2 .text {
+        width: 85%;
+    }
+
+    .banner .btn-prev,
+    .banner .btn-next {
+        display: none;
+    }
+}
+
+@media screen and (max-width:459px) {
+    .section3 .sk .sktext {
+        width: 400px;
+    }
+
+    .web .bg {
+        border-radius: 3em;
+    }
+}
+
+
+@media screen and (max-width:425px) {
+    header .menu {
+        width: 100vw;
+        position: fixed;
+        background-color: #fff;
+        z-index: 999;
+    }
+
+    header .inner>img {
+        width: 50%;
+    }
+
+    header button img {
+        width: 70%;
+    }
+
+    .section1 {
+        padding: 110px 3vw 50px;
+    }
+
+
+    .section1 .bg {
+        min-height: 65vh;
+    }
+
+    .section1 .typing {
+        font-size: 3rem;
+    }
+
+    .section1 .text .subtext p {
+        font-size: 1.2rem;
+        margin-bottom: 0.5em;
+    }
+
+    .section1 .text span {
+        font-size: 0.8rem;
+        width: 160px;
+        height: 35px;
+        line-height: 32px;
+        border: 2px solid white;
+    }
+
+    .section1 .text .subspan {
+        font-size: 0.85rem;
+        bottom: 30%;
+    }
+
+    .section2 .text {
+        margin: 1em;
+    }
+
+    .section2 h1 {
+        font-size: 1.5rem;
+    }
+
+    .section2 p {
+        font-size: 1rem;
+        line-height: 30px;
+    }
+
+    .section3 .inner .title img {
+        width: 34px;
+    }
+
+    .section3 .title p {
+        font-size: 1.9rem;
+        padding-top: 0.3em;
+    }
+
+    .section3 .inner .wrap .pr img {
+        width: 70%;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .section3 .pr .text>p {
+        font-size: 1.5rem;
+    }
+
+    .section3 .pr .text p:nth-child(n+2):nth-child(-n+4) {
+        font-size: 1rem;
+    }
+
+    .section3 .info h1 {
+        font-size: 1.5rem;
+    }
+
+    .section3 .info p {
+        font-size: 1rem;
+    }
+
+    .section3 .info .ed span {
+        font-size: 0.8rem;
+    }
+
+    .section3 .info .ex p {
+        padding-bottom: 1em;
+    }
+
+    .section3 .info .ex::before {
+        top: calc(3.0em + 7px);
+    }
+
+    .section3 .sk .sktext {
+        width: 350px;
+    }
+
+    .web .bg {
+        background: url('../img/mb-bg.jpg')no-repeat center/ cover;
+        padding-bottom: 1em;
+        margin: 50px auto;
+    }
+
+    .web .bg .title img {
+        width: 34px;
+    }
+
+    .web .title p {
+        font-size: 1.9rem;
+        padding-top: 0.3em;
+    }
+
+    .web .itemwrap {
+        padding: 3em 5vw 0;
+    }
+
+    .web .item img,
+    .web .item2 img {
+        width: 90%;
+    }
+
+    .buttondummy {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 1.5em;
+    }
+
+    /* .buttondummy>* {
+        width: 45%;
+    } */
+
+    .web .item span {
+        margin: 0;
+    }
+
+    .web .item2 span {
+        margin: 0;
+    }
+
+    .web .item2 span:active,
+    .web .item span:active {
+        background-color: #3890d8;
+        color: #fff;
+    }
+
+    .item2 br {
+        display: block;
+    }
+
+    .web .item .text,
+    .web .item2 .text {
+        width: 85%;
+        text-align: center;
+    }
+
+    .web .item h1,
+    .item2 h1 {
+        font-size: 1.5rem;
+    }
+
+    .web .item2 .text .textinfo {
+        margin-top: 2em;
+    }
+
+    .web .item .text .textinfo .text-l,
+    .web .item2 .text .textinfo .text-l {
+        width: 55%;
+    }
+
+    .web .item .text .textinfo .text-l p,
+    .text-r p {
+        font-size: 1rem;
+    }
+
+    .web .item2 .text .textinfo .text-l p,
+    .text-r p {
+        font-size: 1rem;
+    }
+
+    .design .title img {
+        width: 34px;
+    }
+
+    .design .title {
+        padding-top: 1em;
+    }
+
+    .design .title p {
+        font-size: 1.9rem;
+        padding-top: 0.3em;
+    }
+
+    .sd {
+        width: 80vw;
+    }
+
+    .banner .btn-next,
+    .banner .btn-prev {
+        width: 16px;
+        height: 26px;
+    }
+
+    .banner .btn-next {
+        right: 3vw;
+    }
+
+    .banner .btn-prev {
+        left: 3vw;
+    }
+
+    .popup .item {
+        width: 90%;
+    }
+
+    .contact .bg {
+        height: 60vh;
+        background: url('../img/footerbg-mb.jpg')no-repeat center / cover;
+    }
+    .contact .title {
+        padding-top: 0;
+    }
+
+    .contact .title img {
+        width: 32px;
+        height: auto;
+    }
+
+    .contact .bg .text {
+        margin: 0;
+    }
+
+    .contact .bg .text .title>p {
+        font-size: 1.6rem;
+    }
+
+    .contact .bg .text > p {
+        font-size: 1rem;
+        word-break: keep-all;
+        margin-bottom: 1em;
+    }
+
+    .contact .bg .text>p span {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width:381px) {
+    .section2 h1 {
+        font-size: 1.4rem;
+    }
+
+    .section2 p {
+        font-size: 0.9rem;
+    }
+
+    .section3 .sk .sktext {
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .section1 .text .subtext p {
+        font-size: 4vw;
+    }
+    .section1 .typing {
+        font-size: 12vw;
+    }
+
+    .section1 .text .subspan {
+        font-size: 4vw;
+    }
+    
+    .section2 h1 {
+        font-size: 6vw;
+    }
+    .section2 p {
+        font-size: 0.9rem;
+    }
+
+    .section3 .title p {
+        font-size: 1.8rem;
+        padding-top: 0.3em;
+    }
+
+    .section3 .pr .text span {
+        font-size: 1.2rem;
+    }
+
+    .section3 .info {
+        width: 100%;
+    }
+
+    .section3 .info p {
+        font-size: 1rem;
+    }
+
+    .section3 .info .ex::before {
+        top: calc(2.8em + 7px)
+    }
+
+    .section3 .sk .sktext {
+        width: 285px;
+    }
+
+    .web .title p {
+        font-size: 1.6rem;
+    }
+
+    .web .itemwrap {
+        padding: 2em 5vw 0;
+    }
+
+
+    .web .item img,
+    .web .item2 img {
+        width: 85%;
+    }
+
+    .web .item .text,
+    .web .item2 .text {
+        width: 100%;
+    }
+
+    .web .item,
+    .web .item2 {
+        margin-bottom: 3em;
+    }
+
+    .design .itembox {
+        width: 100%;
+        margin: 40px auto 0;
+        text-align: center;
+    }
+
+    .design .itembox img {
+        width: 230px;
+    }
+
+    .sd {
+        width: 85vw;
+    }
+
+    .banner {
+        margin-top: 2em;
+    }
+
+    .banner .btn-prev,
+    .banner .btn-next {
+        display: none;
+    }
+
+    .contact .bg .text p {
+        word-break: keep-all;
+    }
+
+    .contact .bg .text>p .br {
+        display: block;
+    }
+}
+
+@media screen and (max-width:390px){
+    .section2 h1 {
+        font-size: 1.3rem;
+    }
+
+    .section2 p {
+        font-size: 0.9rem;
+    }
+
+    .contact .bg .text>p span {
+        font-size: 1.2rem;
+    }
+}
+
+
+@media screen and (max-width:340px) {
+    header .inner>img {
+        width: 50%;
+    }
+
+    .section1 {
+        padding: 110px 3vw 30px;
+    }
+
+    .section1 .bg {
+        min-height: 50vh;
+    }
+
+    .section1 .text .subtext p {
+        font-size: 0.8rem;
+    }
+
+    .section1 .typing {
+        font-size: 2.5rem;
+    }
+
+    .section1 .text .subspan {
+        font-size: 0.6rem;
+        bottom: 40%;
+    }
+
+    .section2 h1 {
+        font-size: 1.2rem;
+    }
+
+    .section2 p {
+        font-size: 0.9rem;
+    }
+
+    .section3 .title {
+        padding-top: 2em;
+    }
+
+    .section3 .pr .text>p {
+        font-size: 1.2rem;
+    }
+
+    .section3 .pr .text p:nth-child(n+2):nth-child(-n+4) {
+        font-size: 0.9rem;
+    }
+
+    .section3 .pr .text span {
+        font-size: 1rem;
+    }
+
+    .section3 .info {
+        width: 95%;
+    }
+
+    .section3 .info h1 {
+        font-size: 1.2rem;
+    }
+
+    .section3 .info p {
+        font-size: 0.9rem;
+    }
+
+    .section3 .title p {
+        padding-top: 0.3em;
+    }
+
+    .section3 .info .ex::before {
+        top: calc(2.6em + 7px);
+        bottom: calc(1em + 7px);
+    }
+
+    .section3 .sk .sktext {
+        width: 230px;
+    }
+
+    .web .bg {
+        border-radius: 3rem
+    }
+
+    .web .title p {
+        font-size: 1.6rem;
+        padding-top: 0.3em
+    }
+
+    .web .item h1,
+    .item2 h1 {
+        font-size: 1.3rem;
+    }
+
+    .web .itemwrap {
+        padding: 1em 5vw 0;
+    }
+
+    .web .item2 .text .textinfo .text-l p,
+    .text-r p {
+        font-size: 0.9rem;
+    }
+
+    .web .item .text .textinfo .text-l p,
+    .text-r p {
+        font-size: 0.9rem;
+    }
+
+    .web .item .text,
+    .web .item2 .text {
+        width: 95%;
+    }
+
+    .web .item .text {
+        padding-top: 3em;
+    }
+
+    .web .item {
+        margin-bottom: 3em;
+    }
+
+    .web .item2 {
+        margin-bottom: 3em;
+    }
+
+    .web .item span,
+    .web .item2 span {
+        font-size: 0.8rem;
+        padding: 4px 40px 4px 20px;
+    }
+
+    .web .item span:hover,
+    .web .item2 span:hover {
+        padding: 4px 50px 4px 20px;
+    }
+
+    .web .item span::after,
+    .web .item2 span::after {
+        width: 8px;
+        height: 14px;
+        right: 1.5em;
+    }
+
+    .web .item span:hover::after,
+    .web .item2 span:hover::after {
+        right: 1em;
+    }
+
+    .web .item span:active::after,
+    .web .item2 span:active::after {
+        width: 8px;
+        height: 14px;
+    }
+
+    .design .title p {
+        font-size: 1.6rem;
+        padding-top: 0.3em;
+    }
+
+    .design .itembox {
+        width: 100%;
+        margin: 40px auto 0;
+        text-align: center;
+    }
+
+    .design .itembox img {
+        width: 200px;
+    }
+
+    .sd {
+        width: 90vw;
+    }
+
+    .banner {
+        margin-top: 0;
+    }
+
+    .banner .btn-next,
+    .banner .btn-prev {
+        display: none;
+    }
+    .contact .bg {
+        height: 60vh;
+        padding-top: 8em;
+    }
+
+    .contact .bg .text .title>p {
+        font-size: 1.6rem;
+        padding-top: 0.3em;
+    }
+
+    .contact .bg .text {
+        margin: 0 auto;
+    }
+
+    .contact .bg .text p {
+        font-size: 0.9rem;
+    }
+
+    .contact .bg .text>p span {
+        font-size: 1rem;
+    }
+
+    .contact .bg .text .number p {
+        font-size: 0.9rem;
+    }
+
+}
