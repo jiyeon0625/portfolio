@@ -25,7 +25,7 @@
     <meta property="og:image" content="img/main-bg-og.jpg">
     <meta property="og:image:width" content="400">
     <meta property="og:image:height" content="300">
-    
+
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -322,20 +322,20 @@
         </section>
 
         <div class="popup">
-            <!-- <div class="button">
-                <div class="line"></div>
-                <div class="line"></div>
-            </div> -->
             <div class="item">
-                <img src="img/design1-full.jpg" alt="#">
-                <img src="img/design1-full-1.jpg" alt="#">
-                <img src="img/design1-full-2.jpg" alt="#">
-                <img src="img/design1-full-3.jpg" alt="#">
-                <img src="img/design1-full-4.jpg" alt="#">
-                <img src="img/design1-full-5.jpg" alt="#">
+                <div class="itemimg">
+                    <img src="img/design1-full.jpg" alt="#">
+                    <img src="img/design1-full-1.jpg" alt="#">
+                    <img src="img/design1-full-2.jpg" alt="#">
+                    <img src="img/design1-full-3.jpg" alt="#">
+                    <img src="img/design1-full-4.jpg" alt="#">
+                    <img src="img/design1-full-5.jpg" alt="#">
+                </div>
             </div>
             <div class="item">
-                <img src="img/design2-full.jpg" alt="#">
+                <div class="itemimg">
+                    <img src="img/design2-full.jpg" alt="#">
+                </div>
             </div>
             <div class="item">
                 <img src="img/design3-full.jpg" alt="#">
@@ -351,7 +351,7 @@
                 <img src="img/design5-full.jpg" alt="#">
             </div>
             <div class="item">
-                <img src="img/design6-full.jpg" alt="#">
+                <a href="https://blupino.com/aboutbrand"><img src="img/design6-full.jpg" alt="#"></a>
             </div>
         </div>
 
@@ -391,24 +391,24 @@
     </footer>
 
     <script>
-    var swiper = new Swiper(".sd", {
-        navigation: {
-            nextEl: ".btn-next",
-            prevEl: ".btn-prev",
-        },
-        autoplay: true,
-        loop: true,
-        speed: 400,
-        spaceBetween: 60,
-    });
-</script>
+        var swiper = new Swiper(".sd", {
+            navigation: {
+                nextEl: ".btn-next",
+                prevEl: ".btn-prev",
+            },
+            autoplay: true,
+            loop: true,
+            speed: 400,
+            spaceBetween: 60,
+        });
+    </script>
 
-<script>
-    AOS.init();
-    easing = "ease-out"
-    duration = "1400"
-    anchorplacement = "bottom-bottom"
-</script>
+    <script>
+        AOS.init();
+        easing = "ease-out"
+        duration = "1400"
+        anchorplacement = "bottom-bottom"
+    </script>
 </body>
 
 </html>
