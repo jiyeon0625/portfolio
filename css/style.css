@@ -795,15 +795,20 @@ header button {
     margin-top: 1em;
     width: 65%;
     justify-content: space-between;
+    margin-bottom: 0.2em;
 
 }
 
 .web .item2 .text .textinfo .text-l p,
-.text-r p {
+.text-r p, .web .item2 .text .text-r a {
     font-size: 1.3rem;
     padding-bottom: 0.5em;
 }
 
+.web .item2 .text .text-r a:hover {
+    color: #4C87B1;
+    font-weight: bold;
+}
 .web .item2 span {
     background-color: white;
     padding: 10px 44px 10px 24px;
@@ -874,11 +879,11 @@ header button {
     gap: 0.5rem;
 }
 
-.design .itembox img:hover {
-    border: 8px solid #89B5D4;
-}
+
 
 .design .itembox img {
+    border: 0px solid #89B5D4;
+    transition: border-width .1s;
     box-shadow: 3px 3px 2px rgba(143, 143, 143, 0.329);
     width: 250px;
     object-fit: cover;
@@ -888,6 +893,9 @@ header button {
     cursor: pointer;
 }
 
+.design .itembox img:hover {
+    border-width: 6px
+}
 .popup {
     position: fixed;
     width: 100%;
